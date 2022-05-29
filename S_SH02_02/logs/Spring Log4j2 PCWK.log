@@ -1,0 +1,3 @@
+[2022-05-27 01:44:27.081] DEBUG UserDaoTest.main(UserDaoTest.java:59) - ====================
+[2022-05-27 01:44:27.085] DEBUG UserDaoTest.main(UserDaoTest.java:60) - =ClassNotFoundException | SQLException=IO 오류: The Network Adapter could not establish the connection
+[2022-05-27 01:44:27.086] DEBUG UserDaoTest.main(UserDaoTest.java:61) - ====================

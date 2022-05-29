@@ -1,0 +1,9 @@
+[2022-05-27 00:03:25.547] DEBUG Log4j2Main.main(Log4j2Main.java:9) - =============
+[2022-05-27 00:03:25.562] DEBUG Log4j2Main.main(Log4j2Main.java:10) - =Log4j2=
+[2022-05-27 00:03:25.562] DEBUG Log4j2Main.main(Log4j2Main.java:11) - =============
+[2022-05-27 00:38:22.336] DEBUG UserDaoTest.main(UserDaoTest.java:37) - ====================
+[2022-05-27 00:38:22.343] DEBUG UserDaoTest.main(UserDaoTest.java:38) - =ClassNotFoundException | SQLException=IO 오류: The Network Adapter could not establish the connection
+[2022-05-27 00:38:22.343] DEBUG UserDaoTest.main(UserDaoTest.java:39) - ====================
+[2022-05-27 00:38:28.089] DEBUG UserDaoTest.main(UserDaoTest.java:37) - ====================
+[2022-05-27 00:38:28.094] DEBUG UserDaoTest.main(UserDaoTest.java:38) - =ClassNotFoundException | SQLException=IO 오류: The Network Adapter could not establish the connection
+[2022-05-27 00:38:28.094] DEBUG UserDaoTest.main(UserDaoTest.java:39) - ====================

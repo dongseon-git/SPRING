@@ -1,0 +1,15 @@
+[2022-05-27 09:10:49.789] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ====================
+[2022-05-27 09:10:49.792] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-27 09:10:49.792] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ====================
+[2022-05-27 09:28:32.717] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ====================
+[2022-05-27 09:28:32.720] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-27 09:28:32.721] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ====================
+[2022-05-27 09:28:33.274] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ====================
+[2022-05-27 09:28:33.277] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-27 09:28:33.277] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ====================
+[2022-05-27 09:30:34.300] DEBUG UserDaoTest.main(UserDaoTest.java:54) - ====================
+[2022-05-27 09:30:34.304] DEBUG UserDaoTest.main(UserDaoTest.java:55) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-27 09:30:34.304] DEBUG UserDaoTest.main(UserDaoTest.java:56) - ====================
+[2022-05-27 09:35:20.608] DEBUG UserDaoTest.main(UserDaoTest.java:53) - ====================
+[2022-05-27 09:35:20.612] DEBUG UserDaoTest.main(UserDaoTest.java:54) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-27 09:35:20.613] DEBUG UserDaoTest.main(UserDaoTest.java:55) - ====================
