@@ -1,0 +1,40 @@
+[2022-05-30 09:46:26.875] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+[2022-05-30 09:46:26.880] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericXmlApplicationContext@21129f1f
+[2022-05-30 09:46:26.919] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'connectionMaker'
+[2022-05-30 09:46:26.932] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userDao'
+[2022-05-30 09:46:27.036] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - ==========================
+[2022-05-30 09:46:27.055] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - =context=org.springframework.context.support.GenericXmlApplicationContext@21129f1f, started on Mon May 30 09:46:26 KST 2022
+[2022-05-30 09:46:27.055] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =dao=com.pcwk.ehr.UserDao@609640d5
+[2022-05-30 09:46:27.056] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - ==========================
+[2022-05-30 09:46:28.019] DEBUG NConnectionMaker.makeConection(NConnectionMaker.java:21) - ==============================
+[2022-05-30 09:46:28.021] DEBUG NConnectionMaker.makeConection(NConnectionMaker.java:22) - =connection=oracle.jdbc.driver.T4CConnection@27a5328c
+[2022-05-30 09:46:28.021] DEBUG NConnectionMaker.makeConection(NConnectionMaker.java:23) - ==============================
+[2022-05-30 09:46:28.022] DEBUG UserDao.add(UserDao.java:119) - ==============================
+[2022-05-30 09:46:28.023] DEBUG UserDao.add(UserDao.java:120) - param:UserVO [uId=p31, name=이상무31, passwd=4321]
+[2022-05-30 09:46:28.024] DEBUG UserDao.add(UserDao.java:121) - sql:
+ INSERT INTO hr_member ( 
+         u_id,           
+         name,           
+         passwd          
+ ) VALUES (              
+     ?,                  
+     ?,                  
+     ?                   
+ )                       
+
+[2022-05-30 09:46:28.025] DEBUG UserDao.add(UserDao.java:122) - ==============================
+[2022-05-30 09:46:28.164] DEBUG UserDaoTest.main(UserDaoTest.java:69) - ======================
+[2022-05-30 09:46:28.165] DEBUG UserDaoTest.main(UserDaoTest.java:70) - =ClassNotFoundException | SQLException=ORA-00001: 무결성 제약 조건(SPRING.PK_HR_MEMBER)에 위배됩니다
+
+[2022-05-30 09:46:28.165] DEBUG UserDaoTest.main(UserDaoTest.java:71) - ======================
+[2022-05-30 12:25:06.510] DEBUG XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+[2022-05-30 12:25:06.517] DEBUG AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:629) - Refreshing org.springframework.context.support.GenericXmlApplicationContext@25a65b77
+[2022-05-30 12:25:06.552] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'connectionMaker'
+[2022-05-30 12:25:06.568] DEBUG DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) - Creating shared instance of singleton bean 'userDao'
+[2022-05-30 12:25:06.645] DEBUG UserDaoTest.<init>(UserDaoTest.java:25) - ==========================
+[2022-05-30 12:25:06.650] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - =context=org.springframework.context.support.GenericXmlApplicationContext@25a65b77, started on Mon May 30 12:25:06 KST 2022
+[2022-05-30 12:25:06.650] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =dao=com.pcwk.ehr.UserDao@561b6512
+[2022-05-30 12:25:06.650] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - ==========================
+[2022-05-30 12:25:07.693] DEBUG UserDaoTest.main(UserDaoTest.java:69) - ======================
+[2022-05-30 12:25:07.694] DEBUG UserDaoTest.main(UserDaoTest.java:70) - =ClassNotFoundException | SQLException=로케일을 인식할 수 없습니다.
+[2022-05-30 12:25:07.694] DEBUG UserDaoTest.main(UserDaoTest.java:71) - ======================

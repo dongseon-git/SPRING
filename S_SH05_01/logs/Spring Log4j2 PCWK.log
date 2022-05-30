@@ -1,0 +1,110 @@
+[2022-05-30 09:30:46.700] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ==============================
+[2022-05-30 09:30:46.703] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =context=org.springframework.context.support.GenericXmlApplicationContext@2ed0fbae, started on Mon May 30 09:30:46 KST 2022
+[2022-05-30 09:30:46.704] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - =dao=com.pcwk.ehr.UserDao@687e99d8
+[2022-05-30 09:30:46.704] DEBUG UserDaoTest.<init>(UserDaoTest.java:29) - ==============================
+[2022-05-30 09:30:47.159] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:21) - ========================
+[2022-05-30 09:30:47.159] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =connection=oracle.jdbc.driver.T4CConnection@543588e6
+[2022-05-30 09:30:47.160] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - ========================
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:110) - ========================
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:111) - =connection=oracle.jdbc.driver.T4CConnection@543588e6
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:112) - ========================
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:125) - ====================
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:126) - param:UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:127) - sql:
+ INSERT INTO hr_member ( 
+     u_id,               
+     name,               
+     passwd              
+ ) VALUES (              
+     ?,                  
+ 	?,                  
+ 	?                   
+ )                       
+
+[2022-05-30 09:30:47.160] DEBUG UserDao.add(UserDao.java:128) - ====================
+[2022-05-30 09:30:47.238] DEBUG UserDao.add(UserDao.java:138) - flag:1
+[2022-05-30 09:30:47.239] DEBUG UserDaoTest.add(UserDaoTest.java:54) - =================
+[2022-05-30 09:30:47.239] DEBUG UserDaoTest.add(UserDaoTest.java:55) - =성공=
+[2022-05-30 09:30:47.239] DEBUG UserDaoTest.add(UserDaoTest.java:56) - =================
+[2022-05-30 09:30:47.299] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:21) - ========================
+[2022-05-30 09:30:47.300] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:22) - =connection=oracle.jdbc.driver.T4CConnection@6cc558c6
+[2022-05-30 09:30:47.300] DEBUG NConnectionMaker.makeConnection(NConnectionMaker.java:23) - ========================
+[2022-05-30 09:30:47.300] DEBUG UserDao.get(UserDao.java:61) - ================
+[2022-05-30 09:30:47.300] DEBUG UserDao.get(UserDao.java:62) - param:UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 09:30:47.300] DEBUG UserDao.get(UserDao.java:63) - sql:
+SELECT u_id,     
+   name,         
+   passwd        
+FROM   hr_member 
+WHERE u_id = ?   
+
+[2022-05-30 09:30:47.300] DEBUG UserDao.get(UserDao.java:64) - ================
+[2022-05-30 09:30:47.343] DEBUG UserDao.get(UserDao.java:79) - ================
+[2022-05-30 09:30:47.343] DEBUG UserDao.get(UserDao.java:80) - outVO=UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 09:30:47.343] DEBUG UserDao.get(UserDao.java:81) - ================
+[2022-05-30 09:30:47.344] DEBUG UserDaoTest.get(UserDaoTest.java:39) - =================
+[2022-05-30 09:30:47.344] DEBUG UserDaoTest.get(UserDaoTest.java:40) - =성공=
+[2022-05-30 09:30:47.344] DEBUG UserDaoTest.get(UserDaoTest.java:41) - =================
+[2022-05-30 10:09:22.520] WARN  AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'connectionMaker' of bean class [com.pcwk.ehr.UserDao]: Bean property 'connectionMaker' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+[2022-05-30 10:11:10.482] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ==============================
+[2022-05-30 10:11:10.486] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =context=org.springframework.context.support.GenericXmlApplicationContext@2ed0fbae, started on Mon May 30 10:11:10 KST 2022
+[2022-05-30 10:11:10.486] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - =dao=com.pcwk.ehr.UserDao@482bce4f
+[2022-05-30 10:11:10.487] DEBUG UserDaoTest.<init>(UserDaoTest.java:29) - ==============================
+[2022-05-30 10:11:10.487] DEBUG UserDaoTest.main(UserDaoTest.java:71) - ==========================
+[2022-05-30 10:11:10.487] DEBUG UserDaoTest.main(UserDaoTest.java:72) - ==ClassNotFoundException | SQLException e=널 URL
+[2022-05-30 10:11:10.487] DEBUG UserDaoTest.main(UserDaoTest.java:73) - ==========================
+[2022-05-30 10:16:49.869] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ==============================
+[2022-05-30 10:16:49.874] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =context=org.springframework.context.support.GenericXmlApplicationContext@2ed0fbae, started on Mon May 30 10:16:49 KST 2022
+[2022-05-30 10:16:49.875] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - =dao=com.pcwk.ehr.UserDao@482bce4f
+[2022-05-30 10:16:49.875] DEBUG UserDaoTest.<init>(UserDaoTest.java:29) - ==============================
+[2022-05-30 10:16:49.935] DEBUG UserDaoTest.main(UserDaoTest.java:71) - ==========================
+[2022-05-30 10:16:49.935] DEBUG UserDaoTest.main(UserDaoTest.java:72) - ==ClassNotFoundException | SQLException e=IO 오류: Invalid connection string format, a valid format is: "host:port:sid" 
+[2022-05-30 10:16:49.935] DEBUG UserDaoTest.main(UserDaoTest.java:73) - ==========================
+[2022-05-30 10:17:33.677] DEBUG UserDaoTest.<init>(UserDaoTest.java:26) - ==============================
+[2022-05-30 10:17:33.680] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - =context=org.springframework.context.support.GenericXmlApplicationContext@2ed0fbae, started on Mon May 30 10:17:33 KST 2022
+[2022-05-30 10:17:33.680] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - =dao=com.pcwk.ehr.UserDao@482bce4f
+[2022-05-30 10:17:33.680] DEBUG UserDaoTest.<init>(UserDaoTest.java:29) - ==============================
+[2022-05-30 10:17:33.739] DEBUG UserDaoTest.main(UserDaoTest.java:71) - ==========================
+[2022-05-30 10:17:33.739] DEBUG UserDaoTest.main(UserDaoTest.java:72) - ==ClassNotFoundException | SQLException e=IO 오류: Invalid connection string format, a valid format is: "host:port:sid" 
+[2022-05-30 10:17:33.739] DEBUG UserDaoTest.main(UserDaoTest.java:73) - ==========================
+[2022-05-30 10:19:53.321] DEBUG UserDaoTest.<init>(UserDaoTest.java:27) - ==============================
+[2022-05-30 10:19:53.325] DEBUG UserDaoTest.<init>(UserDaoTest.java:28) - =context=org.springframework.context.support.GenericXmlApplicationContext@2ed0fbae, started on Mon May 30 10:19:53 KST 2022
+[2022-05-30 10:19:53.326] DEBUG UserDaoTest.<init>(UserDaoTest.java:29) - =dao=com.pcwk.ehr.UserDao@482bce4f
+[2022-05-30 10:19:53.326] DEBUG UserDaoTest.<init>(UserDaoTest.java:30) - ==============================
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:112) - ========================
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:113) - =connection=oracle.jdbc.driver.T4CConnection@54bff557
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:114) - ========================
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:127) - ====================
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:128) - param:UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:129) - sql:
+ INSERT INTO hr_member ( 
+     u_id,               
+     name,               
+     passwd              
+ ) VALUES (              
+     ?,                  
+ 	?,                  
+ 	?                   
+ )                       
+
+[2022-05-30 10:19:53.756] DEBUG UserDao.add(UserDao.java:130) - ====================
+[2022-05-30 10:19:53.821] DEBUG UserDao.add(UserDao.java:140) - flag:1
+[2022-05-30 10:19:53.822] DEBUG UserDaoTest.add(UserDaoTest.java:55) - =================
+[2022-05-30 10:19:53.822] DEBUG UserDaoTest.add(UserDaoTest.java:56) - =성공=
+[2022-05-30 10:19:53.822] DEBUG UserDaoTest.add(UserDaoTest.java:57) - =================
+[2022-05-30 10:19:53.884] DEBUG UserDao.get(UserDao.java:63) - ================
+[2022-05-30 10:19:53.884] DEBUG UserDao.get(UserDao.java:64) - param:UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 10:19:53.884] DEBUG UserDao.get(UserDao.java:65) - sql:
+SELECT u_id,     
+   name,         
+   passwd        
+FROM   hr_member 
+WHERE u_id = ?   
+
+[2022-05-30 10:19:53.884] DEBUG UserDao.get(UserDao.java:66) - ================
+[2022-05-30 10:19:53.923] DEBUG UserDao.get(UserDao.java:81) - ================
+[2022-05-30 10:19:53.923] DEBUG UserDao.get(UserDao.java:82) - outVO=UserVO [uId=p14, name=박건후, passwd=4321]
+[2022-05-30 10:19:53.923] DEBUG UserDao.get(UserDao.java:83) - ================
+[2022-05-30 10:19:53.926] DEBUG UserDaoTest.get(UserDaoTest.java:40) - =================
+[2022-05-30 10:19:53.926] DEBUG UserDaoTest.get(UserDaoTest.java:41) - =성공=
+[2022-05-30 10:19:53.926] DEBUG UserDaoTest.get(UserDaoTest.java:42) - =================
